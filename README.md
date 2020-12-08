@@ -1,4 +1,4 @@
-# A very unique and special slider
+# A very unique and special slider - carousel
 
 _okay so, this is my story with sliders_
 
