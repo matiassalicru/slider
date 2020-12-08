@@ -1,0 +1,45 @@
+.slider__main {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+//   min-width: 100%;
+  margin: 0 100px ;
+  height: 80%;
+  border: 1px solid red;
+  box-sizing: border-box;
+  display: flex;
+  overflow: hidden;
+  
+
+  .slider__slide {
+    min-width: 100%;
+    height: 100%;
+    border: 1px solid $primary;
+    box-sizing: border-box;
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+
+  .slider__btn {
+    position: absolute;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: #4e4e4e50;
+    cursor: pointer;
+    width: 100px;
+
+    i {
+      font-size: 4em;
+      background: none;
+      color: $white;
+    }
+  }
+
+  .left {
+    left: 0;
+  }
+
+  .right {
+    right: 0;
+  }
+}
